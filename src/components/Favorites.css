@@ -1,0 +1,110 @@
+
+.popper-wrapper {
+  border: 3px solid #1976d2;
+  border-radius: 8px;
+  background-color: gainsboro;
+  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 200px;
+  margin-right: 10px;
+
+}
+
+.popper-flexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #1976d2;
+
+}
+
+.favorite-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 45%;
+}
+
+.favorite-team-container-row {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.favorite-team-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.favorite-country {
+  font-size: 0.85em;
+  font-weight: 300;
+  min-height: 20px;
+}
+
+.count-name {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.count-outer {
+  display: flex;
+  flex-direction: column;
+}
+
+.count-inner {
+  margin-bottom: 7px;
+}
+
+.count-number{
+  font-weight: 250;
+}
+
+.country-wrapper {
+  margin-top: -5px;
+}
+
+.MuiTableCell-root {
+  border-bottom: 1px solid black !important;
+}
+
+
+@media screen and (min-width: 605px) {
+  .popper-wrapper {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 685px) {
+  .popper-wrapper {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1078px) {
+  .popper-wrapper {
+    width: 400px;
+  }
+  .count-outer {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+

@@ -1,0 +1,75 @@
+.standings-team-flex {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.table-container {
+  margin-bottom: 30px;
+}
+
+.table-left-cell {
+  width: 300px;
+}
+
+.table-group-name {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.recent-form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.result-wrapper {
+  min-width: 25px;
+  display: flex;
+  font-size: 1em;
+  padding: 1px 1px;
+  border-radius: 50%;
+  color: white;
+
+}
+
+.result {
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 847px){
+  .form-cell {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .toggled-cell {
+    display: none !important;
+  }
+
+  .table-left-cell {
+    width: 200px;
+  }
+
+  .standings-team-flex {
+    font-size: 15px;
+  }
+
+  img {
+    width: 33px;
+    height: 33px;
+  }
+
+  .table {
+    width: 300px !important;
+    min-width: unset !important
+  }
+
+  .standings-view-panel {
+    display: flex;
+    justify-content: center;
+  }
+}

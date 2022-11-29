@@ -1,0 +1,54 @@
+.select {
+  border-color: white;
+}
+
+.filter-by-one {
+  margin-top: -30px;
+  margin-bottom: 25px;
+}
+
+.filter-by-two {
+  margin-top: -20px;
+}
+
+.filter-by-three {
+  margin: 10px 0;
+}
+
+.filter-by-four {
+  margin: 5px 0;
+}
+
+.filter-by-five {
+  display: flex;
+  justify-content: center;
+}
+
+#filter-by-header {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-top: 15px;
+ 
+}
+
+.select-all-button-group {
+  float: right;
+}
+
+
+
+@media screen and (min-width: 605px){
+  .sidebar {
+    display: flex;
+    padding: 0px 15px 0px 15px;
+    height: 580px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+  }
+}
+
+
+

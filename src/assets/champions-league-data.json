@@ -1,0 +1,254 @@
+[
+  {
+    "groupId": "A",
+    "teams":   [{
+      "name": "Napoli",
+      "group": "A",
+      "country": "Italy",
+      "qualified": "Qualified",
+      "logo": "images/napoli.png"
+    },
+    {
+      "name": "Liverpool",
+      "group": "A",
+      "country": "England",
+      "qualified": "Qualified",
+      "logo": "images/liverpool.png"
+    },
+    {
+      "name": "Ajax",
+      "group": "A",
+      "country": "Netherlands",
+      "qualified": "Not Qualified",
+      "logo": "images/ajax.png"
+    },
+    {
+      "name": "Rangers",
+      "group": "A",
+      "country": "Scotland",
+      "qualified": "Not Qualified",
+      "logo": "images/rangers.png"
+    }
+    ]
+  },
+  {
+    "groupId": "B",
+    "teams": [
+      {
+        "name": "FC Porto",
+        "group": "B",
+        "country": "Portugal",
+        "qualified": "Qualified",
+        "logo": "images/porto.png"
+      },
+      {
+        "name": "Club Brugge",
+        "group": "B",
+        "country": "Belgium",
+        "qualified": "Qualified",
+        "logo": "images/brugge.png"
+      },
+      {
+        "name": "Bayer Leverkusen",
+        "group": "B",
+        "country": "Germany",
+        "qualified": "Not Qualified",
+        "logo": "images/leverkusen.png"
+      },
+      {
+        "name": "Atletico Madrid",
+        "group": "B",
+        "country": "Spain",
+        "qualified": "Not Qualified",
+        "logo": "images/atletico.png"
+      }
+    ]
+  },
+  {
+    "groupId": "C",
+    "teams": [{
+      "name": "Bayern Munich",
+      "group": "C",
+      "country": "Germany",
+      "qualified": "Qualified",
+      "logo": "images/bayern.png"
+    },
+    {
+      "name": "Inter Milan",
+      "group": "C",
+      "country": "Italy",
+      "qualified": "Qualified",
+      "logo": "images/inter.png"
+    },
+    {
+      "name": "FC Barcelona",
+      "group": "C",
+      "country": "Spain",
+      "qualified": "Not Qualified",
+      "logo": "images/barcelona.png"
+    },
+    {
+      "name": "Viktoria Plzen",
+      "group": "C",
+      "country": "Czech Republic",
+      "qualified": "Not Qualified",
+      "logo": "images/plzen.png"
+    }]
+  },
+  {
+    "groupId": "D",
+    "teams": [{
+      "name": "Tottenham",
+      "group": "D",
+      "country": "England",
+      "qualified": "Qualified",
+      "logo": "images/tottenham.png"
+    },
+    {
+      "name": "Eintracht Frankfurt",
+      "group": "D",
+      "country": "Germany",
+      "qualified": "Qualified",
+      "logo": "images/frankfurt.png"
+    },
+    {
+      "name": "Sporting CP",
+      "group": "D",
+      "country": "Portugal",
+      "qualified": "Not Qualified",
+      "logo": "images/sporting.png"
+    },
+    {
+      "name": "Marseille",
+      "group": "D",
+      "country": "France",
+      "qualified": "Not Qualified",
+      "logo": "images/marseille.png"
+    }]
+  },
+  {
+    "groupId": "E",
+    "teams": [{
+      "name": "Chelsea",
+      "group": "E",
+      "country": "England",
+      "qualified": "Qualified",
+      "logo": "images/chelsea.png"
+    },
+    {
+      "name": "AC Milan",
+      "group": "E",
+      "country": "Italy",
+      "qualified": "Qualified",
+      "logo": "images/acmilan.png"
+    },
+    {
+      "name": "RB Salzburg",
+      "group": "E",
+      "country": "Austria",
+      "qualified": "Not Qualified",
+      "logo": "images/salzburg.png"
+    },
+    {
+      "name": "Dinamo Zagreb",
+      "group": "E",
+      "country": "Croatia",
+      "qualified": "Not Qualified",
+      "logo": "images/zagreb.png"
+    }]
+  },
+  {
+    "groupId": "F",
+    "teams": [{
+      "name": "Real Madrid",
+      "group": "F",
+      "country": "Spain",
+      "qualified": "Qualified",
+      "logo": "images/madrid.png"
+    },
+    {
+      "name": "RB Leipzig",
+      "group": "F",
+      "country": "Germany",
+      "qualified": "Qualified",
+      "logo": "images/leipzig.png"
+    },
+    {
+      "name": "Shakhtar Donetsk",
+      "group": "F",
+      "country": "Ukraine",
+      "qualified": "Not Qualified",
+      "logo": "images/shakhtar.png"
+    },
+    {
+      "name": "Celtic FC",
+      "group": "F",
+      "country": "Scotland",
+      "qualified": "Not Qualified",
+      "logo": "images/celtic.png"
+    }]
+  },
+  {
+    "groupId": "G",
+    "teams": [{
+      "name": "Manchester City",
+      "group": "G",
+      "country": "England",
+      "qualified": "Qualified",
+      "logo": "images/city.png"
+    },
+    {
+      "name": "Borussia Dortmund",
+      "group": "G",
+      "country": "Germany",
+      "qualified": "Qualified",
+      "logo": "images/dortmund.png"
+    },
+    {
+      "name": "Sevilla FC",
+      "group": "G",
+      "country": "Spain",
+      "qualified": "Not Qualified",
+      "logo": "images/sevilla.png"
+    },
+    {
+      "name": "FC Copenhagen",
+      "group": "G",
+      "country": "Denmark",
+      "qualified": "Not Qualified",
+      "logo": "images/copenhagen.png"
+    }]
+  },
+  {
+    "groupId": "H",
+    "teams": [{
+      "name": "Benfica",
+      "group": "H",
+      "country": "Portugal",
+      "qualified": "Qualified",
+      "logo": "images/benfica.png"
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "group": "H",
+      "country": "France",
+      "qualified": "Qualified",
+      "logo": "images/psg.png"
+    },
+    {
+      "name": "Juventus",
+      "group": "H",
+      "country": "Italy",
+      "qualified": "Not Qualified",
+      "logo": "images/juve.png"
+    },
+    {
+      "name": "Maccabi Haifa ",
+      "group": "H",
+      "country": "Israel",
+      "qualified": "Not Qualified",
+      "logo": "images/haifa.png"
+    }]
+  }
+  
+]
