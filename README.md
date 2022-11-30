@@ -13,7 +13,7 @@ I tried to make the website easy to use. Indicative icons, such as the add to bo
 
 ### Organization of Components
 
-The main App component contains the Sidebar, TeamItem, Favorites, and StandingsView components. The Sidebar component is for the sidebar on the left, with the filtering and sorting options. The TeamItem component represents a team and the information associated with that team, such as its country. Favorites is for content that appears in the bookmarks/favorites popover. This content is essentially the favorited team and the total country count below it. Finally, the StandingsView component is for the standings view panel, which shows the results from each group in standings format. 
+The main App component contains the Sidebar, TeamItem, Favorites, and StandingsView components. The Sidebar component is for the sidebar on the left, with the filtering and sorting options. It takes in a number of state variables as props. These state variables declared in App.js hold the values associated with the filters. The TeamItem component represents a team and the information associated with that team, such as its country. It takes in the relevant information about the team, extracted from the data, as props. Favorites is for content that appears in the bookmarks/favorites popover. This content is essentially the favorited team and the total country count below it. Finally, the StandingsView component is for the standings view panel, which shows the results from each group in standings format. 
 
 ### How Data is Passed Down Through Components
 
